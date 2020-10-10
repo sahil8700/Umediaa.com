@@ -70,7 +70,23 @@ section{
 
 
 .about{
-    height: 200px;
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+}
+.about .aboutimg img{
+    position: absolute;
+    height: 600px;
+    right: 0;
+    padding-right: 80px;
+}
+.about .aboutcontant{
+    width: 60%;
+    margin: auto 0;
+    padding-left: 80px;
+}
+.about .aboutcontant p{
+    color: #fff;
 }
 
 .service{
@@ -97,6 +113,7 @@ section{
     width: 45%;
     margin: 30px 0px;
     border-radius: 20px;
+    border: 1px solid #ffba08;
 }
 
 .cont .card .imbx{
