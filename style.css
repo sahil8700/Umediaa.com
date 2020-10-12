@@ -21,6 +21,9 @@ nav{
 .nav-wrapper a img{
     width: 200px;
 }
+.nav-wrapper a i{
+    color: black;
+}
 section{
     background-image: url(background-compressed.jpg);
     background-size: cover;
@@ -202,5 +205,38 @@ section{
     .cont .card{
         max-width: 300px;
     }
+    
+}
+@media (max-width: 630px){
+    .main .imlogo img{
+        height: 180px;
+        width: 150px;
+        margin-top: 50px;
+    }
+    
+}
+@media (max-width: 392px){
+    .aboutimg img{
+        width: 300px;
+        height: 440px;
+    }
+     .main .imlogo img{
+        height: 140px;
+        width: 150px;
+        margin-top: 40px;
+    }
+    
 }
 
+@media (max-width: 330px){
+    
+    .main .imlogo img{
+        height: 120px;
+        width: 130px;
+        margin-top: 30px;
+    }
+    .aboutimg img{
+        width: 250px;
+        height: 400px;
+    }
+}
