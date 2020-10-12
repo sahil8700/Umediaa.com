@@ -213,6 +213,13 @@ section{
 .topic i{
     color: red;
 }
+.copy p {
+    color: darkgray;
+    text-align: center;
+}
+
+
+
 @media (max-width: 887px){
     .cont{
         width: 100%;
