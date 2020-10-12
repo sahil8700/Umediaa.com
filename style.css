@@ -183,18 +183,36 @@ section{
 .fixed-action-btn a:hover{
      background: #ffba08;
 }
-.page-footer{
-    background: url(background-compressed.jpg);
-    background-size: cover;
-}
-.page-footer li a{
-    text-decoration: none;
-    color: black;
-}
-.page-footer li i{
-    color: black;
-}
 
+.foot{
+    background: url(background-compressed.jpg);
+    height: 500px;
+}
+.topic h1{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.topicon p,h5,h6{
+    text-align: center;
+}
+.topicon img{
+    width: 90px;
+    margin-right: 20px;
+}
+.topicon h6{
+    margin-top: 30px;
+}
+.topicon h6 a{
+    text-decoration: none;
+    color: #ffba08;
+    background: black;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+.topic i{
+    color: red;
+}
 @media (max-width: 887px){
     .cont{
         width: 100%;
@@ -253,5 +271,10 @@ section{
     .aboutimg img{
         width: 250px;
         height: 400px;
+    }
+}
+@media (max-width: 337px){
+    .topicon img{
+        width: 60px;
     }
 }
