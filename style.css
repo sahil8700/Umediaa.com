@@ -176,6 +176,13 @@ section{
     
 }
 
+.fixed-action-btn a{
+    background: #ffba08;
+}
+
+.fixed-action-btn a:hover{
+     background: #ffba08;
+}
 .page-footer{
     background: url(background-compressed.jpg);
     background-size: cover;
@@ -224,6 +231,14 @@ section{
         height: 140px;
         width: 150px;
         margin-top: 40px;
+    }
+    
+}
+
+@media (max-width: 550px){
+    .what a{
+        content: "";
+        
     }
     
 }
