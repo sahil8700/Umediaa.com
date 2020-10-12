@@ -245,6 +245,9 @@ section{
         width: 150px;
         margin-top: 50px;
     }
+    .topicon img{
+        width: 70px;
+    }
     
 }
 @media (max-width: 392px){
@@ -257,15 +260,9 @@ section{
         width: 150px;
         margin-top: 40px;
     }
-    
-}
-
-@media (max-width: 550px){
-    .what a{
-        content: "";
-        
+    .topicon img{
+        width: 60px;
     }
-    
 }
 
 @media (max-width: 330px){
