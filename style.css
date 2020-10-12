@@ -6,9 +6,20 @@
 body{
     background-color: black;
 }
-.navbar{
-    border: none;
+nav{
     background: none;
+}
+.sidenav{
+    background: black;
+}
+.sidenav li a{
+    color: white;
+}
+.right li a{
+    color: black;
+}
+.nav-wrapper a img{
+    width: 200px;
 }
 section{
     background-image: url(background-compressed.jpg);
@@ -17,23 +28,6 @@ section{
     height: 790px;
     overflow: hidden;
 }
-
-.barlink{
-    color: black;
-    font-size: 2.5vh;
-    margin-top: 10px;
-}
-.in{
-    background-color: black;
-    z-index: 10;
-}
-.collapsing{
-    background-color: black;
-}
-.navbar-brand{
-    color: black;
-}
-
 .main .imlogo img{
     margin-top: 100px;
     margin-bottom: 0px;
@@ -191,6 +185,18 @@ section{
     left: 0;
     right: 0;
     
+}
+
+.page-footer{
+    background: url(background-compressed.jpg);
+    background-size: cover;
+}
+.page-footer li a{
+    text-decoration: none;
+    color: black;
+}
+.page-footer li i{
+    color: black;
 }
 
 @media (max-width: 887px){
