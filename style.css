@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    position: relative;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 body{
     background-color: black;
@@ -71,11 +76,12 @@ section{
 .aboutcontant{
     display: inline;
      width: 100%;
-    margin-top: 200px;
+    margin-top: 160px;
     
 }
 .aboutimg{
 }
+
 .aboutcontant p{
     color: white;
     font-size: 1.5em;
@@ -83,126 +89,43 @@ section{
 }
 
 
-.sev{
-    display: flex;
-    height: auto;
-    justify-content: center;
-    flex-wrap: wrap
-}
-
-.sev .box{
-    align-content: center;
-    height: 350px;
-    width: 400px;
-    background:  #141414;
-    border: 2px solid;
-    border-radius: 20px;
-    margin: 20px 20px ;
-}
-.sev .box b{
-    padding-left: 20px;
-    color: #ffba08;
-}
-
-.sev .box .ico{
-    margin: 20px 20px;
-    color: #ffba08;
-}
 .service{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+ border-radius: 20px;
 }
-.cont{
-    position: relative;
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 20px;
-    
-}
-
-.cont .card{
-    position: relative;
-    height: 220px;
-    background: #fff;
-    display: flex;
-    width: 31%;
-    margin: 30px 0px;
-    border-radius: 20px;
-    border: 1px solid #ffba08;
-}
-
-.cont .card .imbx{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    transition: 0.5s ease-in-out;
-    border-radius: 10px;
-}
-.cont .card:hover .imbx{
-    width: 150px;
-    height: 150px;
-    left: -75px;
-    top: calc(50% - 75px);
-    transition: 0.5s ease-in-out;
-    background: #ffba08;
-}
-.cont .card .imbx:before{
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    font-family: cursive;
+.service .title{
     text-align: center;
-    font-size: 46px;
-    color: #ffba08;
-    font-weight: 700;
-}
-.cont .card .imbx img{
-    max-width: 100px;
-    transition: 0.5s ease-in-out;
-}
-.cont .card .imbx h1{
-    color: black;
+    color: white;
 }
 
-.cont .card:hover .imbx img{
-    max-width: 75px;
+.ptag p{
+    color: white;
+    text-align: center;
 }
-.cont .card .contant{
-    position: absolute;
-    right: 0;
-    width: calc(100% - 75px);
-    height: 100%;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.portfolio{
+    height: 600px;
     
 }
-.cont .card .contant h3{
-    margin-bottom: 15px;
-    font-size: 24px;
+
+.portfolio video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+
+    
 }
-.cont .card .contant a{
-    display: inline-block;
-    margin-top: 10px;
-    padding: 5px 10px;
-    background: #333;
-    text-decoration: none;
-    color: #fff;
+
+.videocontant{
+    position: relative;
+}
+
+.porfolio .videocontant .columns{
+    margin-top: 150px;
+    
 }
 
 #lastone{
@@ -249,6 +172,9 @@ section{
 .topic i{
     color: red;
 }
+.topicon p a{
+    margin-right: 40px;
+}
 .copy p {
     color: darkgray;
     text-align: center;
@@ -257,6 +183,10 @@ section{
 @media (max-width: 991px){
     .aboutcontant{
         margin-top: 0;
+    }
+    
+    .topicon p a{
+        margin-right: 20px;
     }
     
     
@@ -271,6 +201,10 @@ section{
     
     .cont .card{
         width: 400px;
+    }
+    
+    .topicon p a{
+        margin-right: 10px;
     }
 }
 
@@ -289,6 +223,9 @@ section{
     }
     .topicon img{
         width: 70px;
+    }
+    .topicon p a{
+        margin-right: 5px;
     }
     
 }
@@ -322,5 +259,8 @@ section{
 @media (max-width: 337px){
     .topicon img{
         width: 60px;
+    }
+    .topicon p a{
+        margin-right: 2px;
     }
 }

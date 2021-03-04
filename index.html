@@ -32,9 +32,9 @@
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
       <ul class="right hide-on-med-and-down">
         <li ><a href="index.html">Home</a></li>
-        <li ><a href="index.html">About</a></li>
-        <li ><a href="index.html">Service</a></li>
-        <li ><a href="#">Contact Us</a></li>
+        <li ><a href="#abbout">About</a></li>
+        <li ><a href="#serviceid">Service</a></li>
+        <li ><a href="#contact">Contact Us</a></li>
       </ul>
     </div>
   </nav>
@@ -54,7 +54,7 @@
    <div class="imlogo">
        <img src="ULogo%20black.png" width="200px;" alt="">
    </div>
-   <div class="maincontant">
+   <div class="maincontant" data-0-top="opacity:0;left:100px;" data-200-top="opacity:1;left:0px;">
     <h1>Do You Want To Build Your Online Presence?</h1>
     <br>
     <p>
@@ -77,12 +77,12 @@
 
 <!--about us section-->
 
-<div class="about">
+<div class="about" id="abbout">
 <div class="section center">
     <h1 class="header">About Us</h1>
 </div>
 <div class="row container center">
-        <div class="col l8 s12 aboutcontant">
+        <div class="col l8 s12 aboutcontant" data-0-top="opacity:0;right:100px;" data-200-top="opacity:1;right:0px;">
         <p>Umediaa defines that We stand by you to flourish your business and you,which evolved into A+ innovative digital
         experience across various industries. Whose vision is to be the inspiration of imaginative innovation composed for YOU.</p>
         <br>
@@ -99,45 +99,64 @@
 
 
 <br>
+<br>
 <!--our service section-->
 
-<h1 style="text-align: center; color: white;">Our Services</h1>
-<div class="sev ">
-
-
-    <div class="box">
-      <div class="ico">
-       <i class="fa fa-line-chart fa-3x" aria-hidden="true"></i>
-       </div>
-      <b>Social Media Managment</b>  
-    </div>
-    <div class="box">
-        <div class="ico">
-       <img src="https://www.pinclipart.com/picdir/middle/571-5719692_voice-speaker-icon-clipart.png" width="70px" alt="">
-       </div>
-        <b>Content & Campaign Production</b>
-    </div>
-    <div class="box">
-      <div class="ico">
-       <i class="fa fa-pencil fa-3x" aria-hidden="true"></i>
-       </div>
-        <b>Website Design & Development</b>
-    </div>
-    <div class="box">
-        <div class="ico">
-       <i class="fa fa-pencil fa-3x" aria-hidden="true"></i>
-       </div>
-        <b>Influencer Marketing & ORM</b>
-    </div>
-    <div class="box">
-        <div class="ico">
-       <i class="fa fa-search fa-3x" aria-hidden="true"></i>
-       </div>
-        <b>Search Engine Optimization</b>
-    </div>
+<h1 style="text-align: center; color: white;" id="serviceid">Our Services</h1>
+<br>
+<div class="row container"  data-0-top="opacity:0;left:100px;" data-200-top="opacity:1;left:0px;">
     
+    <div class="col l4 s12 service ">
+       <div class="title">
+           <h3>SEO</h3>
+       </div>
+        <div class="ptag">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam excepturi numquam quia aperiam molestiae quisquam quas, delectus dolores incidunt, totam!</p>
+       </div>
+        
+    </div>
+    <div class="col l4 s12 service">
+           <div class="title">
+           <h3>SEO</h3>
+       </div>
+       <div class="ptag">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam excepturi numquam quia aperiam molestiae quisquam quas, delectus dolores incidunt, totam!</p>
+       </div>
+        
+    </div>
+    <div class="col l4 s12 service">
+           <div class="title">
+           <h3>SEO</h3>
+       </div>
+        <div class="ptag">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam excepturi numquam quia aperiam molestiae quisquam quas, delectus dolores incidunt, totam!</p>
+       </div>
+        
+    </div>
 </div>
+    <div class="row container row2" data-0-top="opacity:0;right:100px;" data-200-top="opacity:1;right:0px;">
     
+     <div class="col l4 s12 service">
+       <div class="title">
+           <h3>SEO</h3>
+       </div>
+        <div class="ptag">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam excepturi numquam quia aperiam molestiae quisquam quas, delectus dolores incidunt, totam!</p>
+       </div>
+        
+    </div>
+    <div class="col l4 s12 service">
+           <div class="title">
+           <h3>SEO</h3>
+       </div>
+       <div class="ptag">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam excepturi numquam quia aperiam molestiae quisquam quas, delectus dolores incidunt, totam!</p>
+       </div>
+    
+    
+    
+    </div>
+    </div>
 <!--    end of our services-->
     
    <br>
@@ -145,9 +164,28 @@
    <br> 
 
 
+<h1 style="text-align: center; color: white;" id="portid">Portfolio</h1>
+<div class="portfolio">
+   
+   <video src="video.mp4" muted loop autoplay></video>
+   
+       <div class="row videocontant container">
+            <div class="col l4 s12 columns">
+             <h3>SEO</h3>
+           </div>
+           <div class="col l4 s12 columns">
+             <h3>SEO</h3>
+           </div>
+           <div class="col l4 s12 columns">
+             <h3>SEO</h3>
+           </div>
+       </div>
+    
+</div>
+
 <!--footer-->
 
-<div class="foot">
+<div class="foot" id="contact">
    <div class="topic">
        <h1>We <i class="fa fa-heart fa-1x animate__animated animate__pulse animate__infinite animate__faster" aria-hidden="true"></i> to Socialize</h1>
    </div>
@@ -188,6 +226,10 @@
 	
 	
 	
+	<script src="skrollr.js"></script>
+	<script type="text/javascript">
+	var s = skrollr.init();
+	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
 	<script src="sc.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
