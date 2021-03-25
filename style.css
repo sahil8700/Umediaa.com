@@ -1,8 +1,11 @@
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     position: relative;
+   font-family:'futura';
+    font-size: 0.99em;
 }
 
 html{
@@ -30,7 +33,7 @@ nav{
     color: black;
 }
 section{
-    background-image: url(background-compressed.jpg);
+    background-image: url(Images/background-compressed.jpg);
     background-size: cover;
     width: 100%;
     height: 790px;
@@ -88,44 +91,42 @@ section{
     text-align: center;
 }
 
-
-.service{
- border-radius: 20px;
+.title h5{
 }
 .service .title{
-    text-align: center;
-    color: white;
+    padding: 10px;
+}
+.service .title h5{
+    
+    font-size: 2.0em;
 }
 
 .ptag p{
-    color: white;
     text-align: center;
+    color: white;
+    font-size: 1.3em;
 }
 
-.portfolio{
-    height: 600px;
-    
+.lastrow{
+   margin-top: 20px;
 }
-
 .portfolio video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    opacity: 0.5;
     object-fit: cover;
-    opacity: 0.4;
+    width: 100%;
 
     
 }
-
-.videocontant{
-    position: relative;
-}
-
-.porfolio .videocontant .columns{
-    margin-top: 150px;
+.buttonvideo{
+    text-align: center;
     
+}
+.buttonvideo a{
+    background: #ffba08;
+    color: black;
+}
+.buttonvideo a:hover{
+    background-color: darkgoldenrod;
 }
 
 #lastone{
@@ -144,7 +145,7 @@ section{
 }
 
 .foot{
-    background: url(background-compressed.jpg);
+    background: url(Images/background-compressed.jpg);
     height: 500px;
 }
 .topic h1{
