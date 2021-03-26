@@ -1,10 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     position: relative;
-   font-family:'futura';
+   font-family:'Roboto Condensed', sans-serif;';
     font-size: 0.99em;
 }
 
