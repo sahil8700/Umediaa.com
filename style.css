@@ -13,7 +13,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #080808;
+    background-color: black;
 }
 nav{
     background: none;
@@ -233,6 +233,13 @@ section{
         margin-right: 5px;
     }
     
+}
+
+@media (max-width: 533px){
+    .aboutimg img{
+        height: 250px;
+        width: 400px;
+    }
 }
 @media (max-width: 392px){
     .aboutimg img{
