@@ -120,6 +120,21 @@ section{
 
     
 }
+
+.clientimg img{
+    padding: 15px;
+    margin-left: 40px;
+    transition: transform .2s;
+}
+
+.clientimg img:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+.boximg{
+    
+}
+
 .buttonvideo{
     text-align: center;
     
