@@ -1,0 +1,27 @@
+body{
+
+}
+
+nav{
+    background: none;
+}
+.sidenav{
+    background: black;
+}
+.sidenav li a{
+    color: white;
+}
+.right li a{
+    color: black;
+}
+.nav-wrapper a img{
+    width: 200px;
+}
+.nav-wrapper a i{
+    color: black;
+}
+.head{
+}
+.head video{
+    width: 100%;
+}
