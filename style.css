@@ -208,6 +208,11 @@ section{
     .topicon p a{
         margin-right: 20px;
     }
+    .clientimg img{
+    
+    margin-left: 290px;
+    
+}
     
     
 }
@@ -226,6 +231,12 @@ section{
     .topicon p a{
         margin-right: 10px;
     }
+    
+        .clientimg img{
+    
+    margin-left: 220px;
+    
+}
 }
 
 @media (max-width: 887px){
@@ -235,7 +246,7 @@ section{
     }
     
 }
-@media (max-width: 630px){
+@media (max-width: 631px){
     .main .imlogo img{
         height: 180px;
         width: 150px;
@@ -247,6 +258,25 @@ section{
     .topicon p a{
         margin-right: 5px;
     }
+    .clientimg img{
+    
+    margin-left: 130px;
+    
+}
+    
+}
+
+@media (max-width: 480px){
+ .clientimg img{
+    
+    margin-left: 100px;
+    
+}
+
+@media (max-width: 418px){
+ .clientimg img{
+    
+    margin-left: 80px;
     
 }
 
@@ -263,6 +293,11 @@ section{
     .topicon img{
         width: 60px;
     }
+     .clientimg img{
+    
+    margin-left: 60px;
+    
+}
 }
 
 @media (max-width: 330px){
@@ -284,4 +319,9 @@ section{
     .topicon p a{
         margin-right: 2px;
     }
+        .clientimg img{
+    
+    margin-left: 40px;
+    
+}
 }
