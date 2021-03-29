@@ -260,7 +260,7 @@ section{
     }
     .clientimg img{
     
-    margin-left: 130px;
+    margin-left: 120px;
     
 }
     
@@ -269,14 +269,14 @@ section{
 @media (max-width: 480px){
  .clientimg img{
     
-    margin-left: 100px;
+    margin-left: 90px;
     
 }
 
 @media (max-width: 418px){
  .clientimg img{
     
-    margin-left: 80px;
+    margin-left: 70px;
     
 }
 
@@ -311,6 +311,12 @@ section{
         width: 250px;
         height: 250px;
     }
+    
+    .clientimg img{
+    
+    margin-left: 10px;
+    
+}
 }
 @media (max-width: 337px){
     .topicon img{
@@ -321,7 +327,7 @@ section{
     }
         .clientimg img{
     
-    margin-left: 40px;
+    margin-left: 30px;
     
 }
 }
