@@ -15,3 +15,4 @@ It is the official website of Umediaa company
 <img src="output.png">
 
 <b> Link:-</b> "https://sahil8700.github.io/Umediaa.com/"
+<b> Netlify Link:-</b> "https://jovial-varahamihira-6b0e2d.netlify.app"
