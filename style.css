@@ -122,16 +122,16 @@ section{
 }
 
 .clientimg img{
+    color: gray;
     padding: 15px;
     margin-left: 40px;
     transition: transform .2s;
+    filter: grayscale(100%);
 }
-
 .clientimg img:hover{
     transform: scale(1.2);
     overflow: hidden;
-}
-.boximg{
+    filter:grayscale(0);
     
 }
 
