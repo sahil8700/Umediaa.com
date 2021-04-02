@@ -29,9 +29,13 @@ nav{
 }
 .nav-wrapper a img{
     width: 200px;
+    margin-left: 35px;
 }
 .nav-wrapper a i{
     color: black;
+}
+.navcont{
+    margin-right: 40px;
 }
 section{
     background: url(Images/background-compressed.jpg);
@@ -47,8 +51,9 @@ section{
     margin-right: auto;
     display: block;
 }
-.main h1{
+.main h3{
     text-align: center;
+    font-family: futura;
 }
 .main p{
     text-align: center;
@@ -73,24 +78,27 @@ section{
      position: absolute;
     right: 42%;
 }
-
+.maincontant h1{
+    
+    
+}
 .header{
     color: white;
 }
 .aboutcontant{
     display: inline;
      width: 100%;
-    margin-top: 90px;
+    margin-top: 65px;
 }
 .aboutimg{
-    margin-top: 50px;
+    margin-top: 35px;
     
 }
 
 .aboutcontant p{
    padding-left: 20px;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-align: center;
 }
 
@@ -107,9 +115,11 @@ section{
 .ptag p{
     text-align: center;
     color: white;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
-
+.pforinf{
+    margin-top: 30px;
+}
 .lastrow{
    margin-top: 20px;
 }
@@ -135,6 +145,9 @@ section{
     
 }
 
+#spotlight{
+    margin-top: 30px;
+}
 .buttonvideo{
     text-align: center;
     
@@ -165,7 +178,7 @@ section{
 
 .foot{
     background: url(Images/background-compressed.jpg);
-    height: 500px;
+    height: 420px;
 }
 .topic h1{
     text-align: center;
@@ -213,8 +226,13 @@ section{
     margin-left: 290px;
     
 }
+    #spotlight{
+        margin-top: 0;
+    }
     
-    
+    .pforinf{
+    margin-top: 0px;
+}
 }
 
 @media (max-width: 887px){
@@ -272,6 +290,12 @@ section{
     margin-left: 90px;
     
 }
+@media (max-width: 425px){
+    .foot{
+        height: 480px;
+    }
+    
+    }
 
 @media (max-width: 418px){
  .clientimg img{
