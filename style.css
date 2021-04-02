@@ -271,6 +271,9 @@ section{
         width: 150px;
         margin-top: 50px;
     }
+    .main h3{
+    margin-top: 40px;
+    }
     .topicon img{
         width: 70px;
     }
