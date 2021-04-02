@@ -52,6 +52,7 @@ section{
     display: block;
 }
 .main h3{
+    margin-top: 90px;
     text-align: center;
     font-family: futura;
 }
@@ -280,7 +281,10 @@ section{
     
     margin-left: 120px;
     
-}
+    }
+    section{
+        height: 700px;
+    }
     
 }
 
