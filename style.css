@@ -30,6 +30,7 @@ nav{
 .nav-wrapper a img{
     width: 150px;
     margin-left: 35px;
+    margin-top: 10px;
 }
 .nav-wrapper a i{
     color: black;
