@@ -15,6 +15,17 @@ html{
 body{
     background-color: black;
 }
+#loader{
+    
+    height: 100vh;
+    background: #ffcc00;
+}
+#loader img{
+    margin-left: 300px;
+}
+#whole{
+    display: none;
+}
 nav{
     background: none;
 }
