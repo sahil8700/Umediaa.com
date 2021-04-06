@@ -16,13 +16,21 @@ body{
     background-color: black;
 }
 #loader{
-    
+    display: block;
     height: 100vh;
+    width: 100hh;
     background: #ffcc00;
+    overflow: hidden;
 }
-#loader img{
-    margin-left: 300px;
+.centerr{
+ position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
+
 #whole{
     display: none;
 }
@@ -270,6 +278,13 @@ section{
     }
     
 }
+@media (max-width: 792px){
+    
+    .centerr{
+        width: 500px;
+    }
+    
+}
 @media (max-width: 631px){
     .main .imlogo img{
         height: 180px;
@@ -301,6 +316,10 @@ section{
     
     margin-left: 90px;
     
+}
+     .centerr{
+        width: 400px;
+    }
 }
 @media (max-width: 425px){
     .foot{
@@ -334,6 +353,9 @@ section{
     margin-left: 60px;
     
 }
+     .centerr{
+        width: 300px;
+    }
 }
 
 @media (max-width: 330px){
