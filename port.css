@@ -8,9 +8,36 @@
 body{
     background-color: black;
 }
-.back a{
-    margin: 20px;
-    border-radius: 10px;
+
+section{
+    height: 150px;
+}
+nav{
+    background: none;
+}
+.sidenav{
+    background: white;
+}
+.sidenav li a{
+    color: white;
+}
+.right li a{
+    color: white;
+}
+.nav-wrapper a img{
+    height: 100px;
+    width: 80px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.navcont{
+    margin-top: 15px;
+    margin-right: 40px;
+}
+.navcont a:hover{
+    background: #ffba08;
+    color: black;
+    border-radius: 5px;
 }
 .main{
 	position: relative;
