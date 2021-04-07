@@ -238,6 +238,7 @@ section{
     .clientimg img{
     
     margin-left: 290px;
+        filter:grayscale(0);
     
 }
     #spotlight{
@@ -266,7 +267,7 @@ section{
     
         .clientimg img{
     
-    margin-left: 220px;
+    margin-left: 210px;
     
 }
 }
@@ -302,7 +303,7 @@ section{
     }
     .clientimg img{
     
-    margin-left: 120px;
+    margin-left: 110px;
     
     }
     section{
@@ -325,13 +326,17 @@ section{
     .foot{
         height: 480px;
     }
+     .clientimg img{
     
+    margin-left: 75px;
+    
+}
     }
 
 @media (max-width: 418px){
  .clientimg img{
     
-    margin-left: 70px;
+    margin-left: 60px;
     
 }
 
@@ -350,7 +355,7 @@ section{
     }
      .clientimg img{
     
-    margin-left: 60px;
+    margin-left: 45px;
     
 }
      .centerr{
@@ -372,7 +377,7 @@ section{
     
     .clientimg img{
     
-    margin-left: 10px;
+    margin-left: 5px;
     
 }
 }
@@ -385,7 +390,7 @@ section{
     }
         .clientimg img{
     
-    margin-left: 30px;
+    margin-left: 20px;
     
 }
 }
