@@ -206,6 +206,9 @@ section{
     width: 90px;
     margin-right: 20px;
 }
+.topicon img:hover{
+    filter: brightness(0.5);
+}
 .topicon h6{
     margin-top: 30px;
 }
