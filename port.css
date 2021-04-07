@@ -157,6 +157,10 @@ nav{
 		display: block;
 		filter: brightness(1) grayscale(0);
 	}
+    .main .gallery .img video{
+		display: block;
+		filter: brightness(1) grayscale(0);
+	}
     .nav-wrapper a img{
     height: 80px;
     width: 56px;
