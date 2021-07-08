@@ -1,6 +1,7 @@
 <h1> Umediaa.com</h1>
 
 It is the official website of Umediaa company
+<b> Link:-</b> "https://www.umediaa.com/"<br><br>
 
 <h1>Technology Used</h1>
 
@@ -14,5 +15,4 @@ It is the official website of Umediaa company
 <h1>Screenshot</h1>
 <img src="output.png">
 
-<b> Link:-</b> "https://sahil8700.github.io/Umediaa.com/"<br><br>
-<b> Netlify Link:-</b> "https://jovial-varahamihira-6b0e2d.netlify.app"
+
